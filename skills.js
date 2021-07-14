@@ -1,29 +1,64 @@
-// # 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
+// # 1. Write a while loop to print the numbers 1 through 10.
 
-// var number = 10
-
-// if (number === 10) {
-//   console.log(0)
-// } else {
-//   console.log(-1)
+// var number = 1;
+// while (number < 11) {
+//   console.log(number);
+//   number++;
 // }
 
-// # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
+
+// # 2. Write a while loop that prints the word "hello" 5 times.
+
+
+// var message = "Hello!";
+// var i = 0;
+// while (i < 5) {
+//   console.log(message);
+//   i++;
+
+// }
+
+// # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+
+// var input = window.prompt("Enter your text HereL!:") 
+// # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
+
+// var number = 0;
+
+// while (number < 101) {
+//   console.log(number);
+//   number += 5;
+// }
+
+// # 5. Write a while loop that prints the number 9000 ten times.
+
+// var number = 9000;
+// var i = 0;
+// while (i < 10) {
+//   console.log(number);
+//   i++;
+// }
+
+// # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+
+
+// var input = window.prompt("Enter a number:")
 
 
 
-// # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
+// # 7. Write a while loop that prints the numbers 50 to 70.
 
-// # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
 
-// # 5. Use a variable to store a number, then write a condition that prints 9 if the number is less than 10, prints 19 if the number is less than 20, prints 29 if the number is less than 30, and prints -1 otherwise (only one print statement should occur).
 
-// # 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+// # 8. Write a while loop that prints the phrase "Around the world" 144 times.
 
-// # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
+// var i = 0
 
-// # 8. Use a variable to store a number, then write a condition that prints 100 if the number equals 100, prints 99 if the number is equal to 99, and prints 0 otherwise.
+// while (i < 155) {
+//   console.log("Around the world");
+//   i++;
+// }
 
-// # 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
+// # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters. 
 
-// # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur)
+// # 10. Write a while loop that prints the even numbers from 2 to 40.
