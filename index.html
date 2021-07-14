@@ -1,0 +1,52 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Practice Vue.js </title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="index.js" defer ></script>
+</head>
+<body>
+  <h1>Hello from HTML!</h1>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <p> {{ movies }}</p>
+    {{ created() }}
+
+    <p v-for ="movie in movies">
+      {{ movie }}
+    </p>
+
+    <br> 
+    <br> 
+    <br>
+
+    <p> <input type="text" v-model="newMovie"></p>
+    <button v-on:click="addMovie()"> Add Movie</button>
+
+    <!-- <button v-on:click="isZoolanderThere()"> Zoolander? </button> -->
+
+    
+
+    <br> 
+    <br> 
+    <br> 
+
+
+    <!-- Bonus: Add this image tag to the page: <img src="https://i.ibb.co/59C7PD9/zoolander.jpg">. Add a v-if conditional attribute to the img tag and have it only show the image if the movie "Zoolander" is in your movies array. Hint: look up the javascript .includes() method. -->
+  
+    <p> {{ noZoolander }} </p>
+    <img v-if="zoolanderIsGood" src="https://i.ibb.co/59C7PD9/zoolander.jpg">
+
+ 
+    
+  <!--  create the toggle function -->
+
+
+
+    
+  </div>
+</body>
+</html>
